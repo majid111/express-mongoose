@@ -5,8 +5,8 @@
   "scripts": {
     "start:prod": "node dist/app/server.js",
     "start:dev": "tsnd --respawn ./src/app/server.ts",
-    "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix",
+    "lint": "npx eslint src/**/*.ts",
+    "lint:fix": "npx eslint src/**/*.ts --fix",
     "prettier": "prettier ./src --write",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"

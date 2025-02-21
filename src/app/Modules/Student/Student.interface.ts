@@ -5,9 +5,11 @@ export type StudentName = {
 };
 
 export type Student = {
+  id: string;
   name: StudentName;
   email: string;
   phone: string;
+  emergencyContact: string;
   gender: 'male' | 'Female';
   dateOfBirth: Date;
   address: {
